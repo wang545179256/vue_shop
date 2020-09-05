@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<h2 align="center">Welcome</h2>
-		<h3 class="medium">{{ item }}</h3>
 		<el-carousel :interval="4000" type="card" height="400px">
 			<el-carousel-item v-for="item in imagesbox" :key="item.id">
 				<img :src="item.idView">
