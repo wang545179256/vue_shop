@@ -214,7 +214,7 @@
 				this.editRolesForm = res.data
 				this.editDialogVisble = true
 			},
-			// 监听修改用户对话框的关闭时间
+			// 监听修改用户对话框的关闭事件
 			editDialogClosed() {
 				this.$refs.editRolesFormRef.resetFields()
 			},
