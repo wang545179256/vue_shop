@@ -64,3 +64,13 @@ body,
   top: 10px; 
 }
 
+.el-steps{
+	margin:20px 0;
+}
+.el-step__title{
+	font-size:13px;
+}
+
+.ql-editor{
+	min-height: 400px;
+}
