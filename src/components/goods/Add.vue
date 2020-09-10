@@ -280,6 +280,7 @@
 					// 发起请求添加商品
 					// 商品名称,必须是唯一的
 					const {data:res} = await this.$http.post(`goods`,form)
+					console.log(res)
 					if(res.meta.status !== 201){
 						return this.$message.error('添加信息失败！')
 					}
@@ -299,7 +300,7 @@
 	}
 </script>
 
-<style>
+<style lang="less" scoped>
 	.el-cascader {
 		width: 300px;
 	}
