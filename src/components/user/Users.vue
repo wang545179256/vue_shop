@@ -328,8 +328,8 @@
 				this.editDialogVisble = true
 			},
 			// 监听修改用户对话框的关闭事件
-			editCateDialogClosed() {
-				this.$refs.editCateFormRef.resetFields()
+			editDialogClosed() {
+				this.$refs.editDialogClosed.resetFields()
 			},
 			editUserinfo() {
 				this.$refs.editFormRef.validate(async valid => {

@@ -15,27 +15,23 @@
 			return {
 				imagesbox: [{
 						id: 0,
-						idView: require("../assets/welcom (1).jpg")
+						idView: require("../assets/welcome1.jpg")
 					}, {
 						id: 1,
-						idView: require("../assets/welcom (2).jpg")
+						idView: require("../assets/welcome2.jpg")
 					},
 
 					{
 						id: 2,
-						idView: require("../assets/welcom (3).jpg")
+						idView: require("../assets/welcome3.jpg")
 					},
 					{
 						id: 3,
-						idView: require("../assets/welcom (4).jpg")
+						idView: require("../assets/welcome4.jpg")
 					},
 					{
 						id: 4,
-						idView: require("../assets/welcom (5).jpg")
-					},
-					{
-						id: 5,
-						idView: require("../assets/welcom (6).jpg")
+						idView: require("../assets/welcome5.jpg")
 					}
 				]
 			}

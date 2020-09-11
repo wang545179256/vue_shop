@@ -77,10 +77,10 @@
 		  <!-- 物流信息时间线 -->
 		   <el-timeline>
 		       <el-timeline-item
-		         v-for="(progressInfo, index) in activities"
+		         v-for="(progressInfo, index) in activity"
 		         :key="index"
-		         :timestamp="activities.time">
-		         {{activities.context}}
+		         :timestamp="activity.time">
+		         {{activity.context}}
 		       </el-timeline-item>
 		     </el-timeline>
 		</el-dialog>
@@ -118,7 +118,8 @@
 				},
 				cityDate,
 				progressVisible:false,
-				progressInfo:[]
+				progressInfo:[],
+				activity:{}
 			}
 		},
 		created(){
